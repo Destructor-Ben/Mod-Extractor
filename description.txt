@@ -1,0 +1,8 @@
+[c/fc3564:Why does this mod exist?]
+Some mods in tModLoader have the code and resources hidden when they are extracted, which can be annoying for modders wanting to add cross-mod support or people wanting to use mods as a learning resource.
+
+[c/fc3564:What does this mod do?]
+This mod allows any mod to have its code and resources extracted. If you want to test this, you can try it on this mod, since it has been set to hide its code and resources when extracted. Another mod this can be tested on is Calamity, since it also hides it's resources and code when extracted. There is also a config for toggling whether code and resources should be extracted.
+
+[c/fc3564:How do I extract a mod?]
+To extract a mod, download it and open it's mod info menu and click the extract button. After a mod is extracted, you can find its dll containing the code and its resources in the folder "C:\Users\{username}\Documents\My Games\Terraria\tModLoader\ModReader\{modname}". The dll is also located at "C:\Users\{username}\Documents\My Games\Terraria\tModLoader\ModSources\ModAssemblies". The dll can be opened in a program like dnSpy to view the C# code.

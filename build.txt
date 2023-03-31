@@ -1,0 +1,7 @@
+displayName = Mod Extractor
+author = Destructor_Ben
+version = 1.0.0.2
+homepage = https://github.com/Destructor-Ben/Mod-Extractor
+hideCode = true
+hideResources = true
+side = Client
