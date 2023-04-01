@@ -1,3 +1,5 @@
+If you like this mod, please consider supporting it by joining the [url=https://discord.gg/uQzTRx2V8Y]Discord Server[/url].
+
 [h1]Why does this mod exist?[/h1]
 Some mods in tModLoader have the code and resources hidden when they are extracted, which can be annoying for modders wanting to add cross-mod support or people wanting to use mods as a learning resource.
 
