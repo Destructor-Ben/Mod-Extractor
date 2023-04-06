@@ -1,2 +1,3 @@
 # ExtractAnyMod
- A Terraria mod that can extract any mod
+
+A Terraria mod that allows any mod to be extracted
