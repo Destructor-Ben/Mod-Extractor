@@ -9,10 +9,10 @@ using Terraria.ModLoader;
 namespace ExtractAnyMod;
 public class ExtractAnyMod : Mod
 {
-    static MethodInfo extractMethod;
-    static Type buildPropertiesType;
-    static ILHook hook;
-    static event ILContext.Manipulator Hook_UIExtractMod_Extract
+    private static MethodInfo extractMethod;
+    private static Type buildPropertiesType;
+    private static ILHook hook;
+    private static event ILContext.Manipulator Hook_UIExtractMod_Extract
     {
         add
         {
@@ -22,7 +22,7 @@ public class ExtractAnyMod : Mod
 
         remove
         {
-            hook.Undo();
+            hook?.Undo();
             hook = null;
         }
     }
@@ -52,7 +52,7 @@ public class ExtractAnyMod : Mod
         buildPropertiesType = null;
     }
 
-    void HookExtractMod(ILContext il)
+    private void HookExtractMod(ILContext il)
     {
         try
         {
