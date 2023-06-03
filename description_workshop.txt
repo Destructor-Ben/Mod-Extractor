@@ -1,10 +1,26 @@
-If you like this mod, please consider supporting it by joining the [url=https://discord.gg/uQzTRx2V8Y]Discord Server[/url]
+Mod Extractor allows any mod to have it's code and resources extracted.
 
-[h1]Why does this mod exist?[/h1]
+[h1]Copyright Notice[/h1]
+Do not use this mod to pirate other peoples mods. Nobody like having their hard work stolen, and the people in modding community know each other very well so a copied mod will be easily spotted and taken down.
+
+[h1]Features[/h1]
+[list]
+[*]Forces mods to have their code extracted
+[*]Forces mods to have their resources extracted
+[/list]
+
 Some mods in tModLoader have the code and resources hidden when they are extracted, which can be annoying for modders wanting to add cross-mod support or people wanting to use mods as a learning resource.
 
-[h1]What does this mod do?[/h1]
 This mod allows any mod to have its code and resources extracted. If you want to test this, you can try it on this mod, since it has been set to hide its code and resources when extracted. Another mod this can be tested on is Calamity, since it also hides it's resources and code when extracted. There is also a config for toggling whether code and resources should be extracted.
 
-[h1]How do I extract a mod?[/h1]
-To extract a mod, download it and open it's mod info menu and click the extract button. After a mod is extracted, you can find its dll containing the code and its resources in the following folder:[code]C:\Users\{username}\Documents\My Games\Terraria\tModLoader\ModReader\{modname}[/code]The dll is also located in the following folder:[code]C:\Users\{username}\Documents\My Games\Terraria\tModLoader\ModSources\ModAssemblies[/code]The dll can be opened in a program like dnSpy to view the C# code.
+To extract a mod, download it and open it's mod info menu and click the extract button. After a mod is extracted, you can find its resources and the dll containing the code in the following folder:[code]C:\Users\{username}\Documents\My Games\Terraria\tModLoader\ModReader\{modname}[/code]The dll is also located in the following folder:[code]C:\Users\{username}\Documents\My Games\Terraria\tModLoader\ModSources\ModAssemblies[/code]The dll can be opened in a program like dnSpy to view the C# code.
+
+[h1]Contact[/h1]
+If you find any bugs or have any suggestions, please let me know on the mod's Steam Page, [url=https://github.com/Destructor-Ben/Mod-Extractor]Github Repository[/url] or [url=https://discord.gg/uQzTRx2V8Y]Discord Server[/url]
+
+[h1]Support[/h1]
+[img]https://i.imgur.com/W2c5CX6.gif[/img]
+Please consider rating and favouriting the mod on Steam, starring the [url=https://github.com/Destructor-Ben/Mod-Extractor]Github Repository[/url] and joining the [url=https://discord.gg/uQzTRx2V8Y]Discord Server[/url] if you would like to support this mod.
+
+[h1]More Tools Like This[/h1]
+[url=https://github.com/IVogel/tModUnpacker]tModUnpacker[/url] is a similar tool which works for 1.3 mods as well (thanks to AwesomeSavage777 for pointing this out), though it may be buggier, however I haven't tested it myself.

@@ -1,7 +1,7 @@
 displayName = Mod Extractor
 author = Destructor_Ben
-version = 1.2.0.1
-homepage = https://discord.gg/uQzTRx2V8Y
+version = 1.2.0.2
+homepage = https://github.com/Destructor-Ben/Mod-Extractor
 hideCode = true
 hideResources = true
 includeSource = false

@@ -1,2 +1,5 @@
-Added link to Discord server
-Updated description
+[b]v1.2.0.2[/b]
+[list]
+[*]Fixed a bug involving unloading
+[*]Ported to latest version of tML
+[/list]
