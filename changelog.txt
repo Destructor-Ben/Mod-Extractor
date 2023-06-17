@@ -1,5 +1,4 @@
-[b]v1.2.0.2[/b]
+[b]v1.2.0.3[/b]
 [list]
-[*]Fixed a bug involving unloading
-[*]Ported to latest version of tML
+[*]Updated description
 [/list]
