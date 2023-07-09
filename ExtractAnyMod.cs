@@ -1,7 +1,3 @@
-global using ExtractAnyMod.Configuration;
-global using Terraria;
-global using Terraria.ModLoader;
-
 namespace ExtractAnyMod;
 internal class ExtractAnyMod : Mod
 {

@@ -1,4 +1,4 @@
-[b]v1.2.0.3[/b]
+[b]v1.2.0.4[/b]
 [list]
-[*]Updated description
+[*]Migrated mod to custom build system - No effect on users
 [/list]

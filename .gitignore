@@ -1,4 +1,11 @@
+# Project/user files
 .vs/
+*.user
+
+# Output files
 bin/
 obj/
-*.user
+
+# TerraUtil
+TerraUtil.dll
+TerraUtil.pdb

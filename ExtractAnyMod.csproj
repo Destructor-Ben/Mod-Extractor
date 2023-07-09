@@ -1,15 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="..\tModLoader.targets" />
+<Project>
+  <Import Project="..\TerraUtil\Mod.targets" />
+
   <PropertyGroup>
-    <AssemblyName>ExtractAnyMod</AssemblyName>
-    <TargetFramework>net6.0</TargetFramework>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <LangVersion>latest</LangVersion>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+    <IncludeTerraUtil>false</IncludeTerraUtil>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
-  </ItemGroup>
 </Project>
