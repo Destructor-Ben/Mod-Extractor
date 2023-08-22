@@ -1,5 +1,4 @@
-[b]v1.2.0.4[/b]
+[b]v1.2.0.5[/b]
 [list]
-[*]Migrated mod to custom build system - No effect on users
-[*]Reuploaded because previous version was built on development build of tModLoader
+[*]Updated some buggy code
 [/list]
