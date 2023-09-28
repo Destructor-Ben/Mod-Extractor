@@ -3,8 +3,9 @@ using MonoMod.Cil;
 using System.Reflection;
 using TerraUtil.Edits;
 
-namespace ExtractAnyMod.Common;
-internal class ExtractEdit : ILEditReflection
+namespace ExtractAnyMod.Core;
+
+public class ExtractEdit : ILEditReflection
 {
     private static Type BuildProperties => typeof(Main).Assembly.GetType("Terraria.ModLoader.Core.BuildProperties") ?? throw new Exception("'BuildProperties' is null");
     private static MethodInfo ExtractMethod => (typeof(Main).Assembly.GetType("Terraria.ModLoader.UI.UIExtractMod")?.GetMethod("Extract", BindingFlags.NonPublic | BindingFlags.Instance)) ?? throw new Exception("'ExtractMethod' is null");

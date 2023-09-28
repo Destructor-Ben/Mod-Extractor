@@ -1,5 +1,6 @@
 namespace ExtractAnyMod;
-internal class ExtractAnyMod : Mod
+
+public class ExtractAnyMod : TerraUtilMod
 {
     public static ExtractAnyMod Instance => ModContent.GetInstance<ExtractAnyMod>();
 }

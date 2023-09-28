@@ -1,8 +1,10 @@
-#pragma warning disable CS0649
 using System.ComponentModel;
 using Terraria.ModLoader.Config;
 
 namespace ExtractAnyMod.Configuration;
+
+#pragma warning disable CS0649
+
 internal class Config : ModConfig
 {
     public static Config Instance => ModContent.GetInstance<Config>();
