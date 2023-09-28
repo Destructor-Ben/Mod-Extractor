@@ -3,7 +3,7 @@ using MonoMod.Cil;
 using System.Reflection;
 using TerraUtil.Edits;
 
-namespace ExtractAnyMod.Content;
+namespace ExtractAnyMod.Common;
 internal class ExtractEdit : ILEditReflection
 {
     private static Type BuildProperties => typeof(Main).Assembly.GetType("Terraria.ModLoader.Core.BuildProperties") ?? throw new Exception("'BuildProperties' is null");
