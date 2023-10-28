@@ -2,7 +2,7 @@ displayName = Mod Extractor
 author = Destructor_Ben
 homepage = https://github.com/Destructor-Ben/Mod-Extractor
 
-version = 1.2.0.5
+version = 1.2.0.6
 side = Client
 dllReferences = TerraUtil
 

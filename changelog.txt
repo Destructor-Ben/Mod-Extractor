@@ -1,4 +1,4 @@
-[b]v1.2.0.5[/b]
+[b]v{ModVersion} - {tMLBuildPurpose} tModLoader v{tMLVersion}[/b]
 [list]
-[*]Updated some buggy code
+[*]
 [/list]
