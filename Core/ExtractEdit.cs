@@ -19,16 +19,16 @@ public class ExtractEdit : ILEditReflection
         while (c.TryGotoNext(i => i.MatchLdfld(HideCode)))
         {
             c.Index++;
-            c.Emit(OpCodes.Pop);
-            c.EmitDelegate(delegate () { return !Config.Instance.ExtractCode; });
+            _ = c.Emit(OpCodes.Pop);
+            _ = c.EmitDelegate(() => !Config.Instance.ExtractCode);
         }
 
         c.Index = 0;
         while (c.TryGotoNext(i => i.MatchLdfld(HideResources)))
         {
             c.Index++;
-            c.Emit(OpCodes.Pop);
-            c.EmitDelegate(delegate () { return !Config.Instance.ExtractResources; });
+            _ = c.Emit(OpCodes.Pop);
+            _ = c.EmitDelegate(() => !Config.Instance.ExtractResources);
         }
     }
 }
