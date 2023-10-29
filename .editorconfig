@@ -238,3 +238,7 @@ dotnet_diagnostic.IDE0059.severity = none
 # Stopping annoying error about using properties instead of fields
 
 dotnet_diagnostic.CA2211.severity = none
+
+# Making namespaces always match folder structure
+
+dotnet_diagnostic.IDE0130.severity = suggestion
