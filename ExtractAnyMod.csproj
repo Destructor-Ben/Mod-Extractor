@@ -2,6 +2,6 @@
   <Import Project="..\TerraUtil\Mod.targets" />
 
   <PropertyGroup>
-    <TerraUtilUsingContent>false</TerraUtilUsingContent>
+    <TerraUtil-UsingContent>false</TerraUtil-UsingContent>
   </PropertyGroup>
 </Project>
